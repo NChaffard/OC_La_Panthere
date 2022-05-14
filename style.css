@@ -27,6 +27,7 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+
 .bloc {
     width: 100%;
     clear: both;
@@ -362,6 +363,12 @@ a:hover {
     z-index: 2;
 }
 
+.description{
+    font-size: 20px;
+}
+
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -537,13 +544,18 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   
+    
 }
 
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 32px;
     width: 50px;
     height: 50px;
