@@ -39,7 +39,6 @@ address a:focus{
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-
 .bloc {
     width: 100%;
     clear: both;
@@ -101,11 +100,6 @@ address a:focus{
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.webp");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -383,11 +377,11 @@ address a:focus{
     position: relative;
     z-index: 2;
 }
-
-.description{
+/* Classe pour le titre de la section services */
+.service-title{
     font-size: 20px;
 }
-
+/* Classe pour le titre du formulaire */
 .form-title{
     margin-bottom: 20px;
 }
